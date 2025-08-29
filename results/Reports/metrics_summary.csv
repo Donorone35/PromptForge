@@ -1,0 +1,10 @@
+Task,Metric,Value
+qa,accuracy,0.92
+qa,precision,0.9
+qa,recall,0.89
+summarization,rouge-1,0.78
+summarization,rouge-2,0.65
+summarization,rouge-l,0.74
+roleplay,coherence,0.88
+roleplay,fluency,0.91
+roleplay,engagement,0.85
