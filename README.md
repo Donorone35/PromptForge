@@ -32,6 +32,7 @@ It leverages **IBM Granite LLM** via **WatsonX.ai** and **LangChain** to handle 
   - Roleplay: sample decoding, max 256 tokens, temperature 0.8, top_p 0.9
 
 ## **Project Structure**
+```
 Prompt-Forage/
 │── prompts/                     # Task-specific prompt templates
 │── results/                     # Stores output files
@@ -42,6 +43,7 @@ Prompt-Forage/
 │── requirements.txt             # Python dependencies
 │── README.md                    # Project documentation
 │── LICENSE                      # MIT License
+```
 
 ## **Installation & Usage**
 ### **Installation**
