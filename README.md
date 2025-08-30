@@ -34,15 +34,20 @@ It leverages **IBM Granite LLM** via **WatsonX.ai** and **LangChain** to handle 
 ## **Project Structure**
 ```
 Prompt-Forage/
-│── prompts/                     # Task-specific prompt templates
-│── results/                     # Stores output files
-│   ├── Evaluations/             # JSONL / CSV evaluation data
-│   ├── Reports/                 # Markdown summaries, plots
-│   └── README.md                # Result folder documentation
-│── PromptForge.ipynb            # Main Jupyter notebook with code
-│── requirements.txt             # Python dependencies
-│── README.md                    # Project documentation
-│── LICENSE                      # MIT License
+│── prompts/ # Task-specific prompt templates
+│── results/ # Stores output files
+│ │── Evaluations/ # JSONL / CSV evaluation data
+│ │ │── prompt_evaluation_responses.jsonl # Structured evaluation responses
+│ │ │── llm_raw_responses.jsonl # Raw LLM outputs
+│ │── Reports/ # Markdown summaries and visualizations
+│ │ │── metrics_summary.csv # CSV summary of metrics
+│ │ │── graphs.png # Visualizations of results
+│ │ │── evaluation_report.md # Markdown report
+│ │── README.md # Result folder documentation
+│── PromptForge.ipynb # Main Jupyter notebook with code
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
+│── LICENSE # MIT License
 ```
 
 ## **Installation & Usage**
